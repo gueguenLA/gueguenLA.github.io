@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Accueil</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+  <header> <!-- Le header est le même pour toutes les pages du site -->
+	    <div id="menu">
+	    	<h1>La chambre noire</h1>
+			<!-- Menu pour naviguer sur le site -->
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="articles.html">Articles</a></li>	
+				<li><a href="qui_sommes_nous.html">About Us</a></li>
+				<li><a href="details_techniques.html">Détails techniques </a></li>
+			</ul>
+		</div>
+
+		<!-- Lien vers le panier -->
+ 		<div id="panier">
+			<a href="panier_vide.html"><img src="photo/panier.png" alt="panier" title=" voir vos achats" >
+			<br>Article: 0 </a>
+		</div>
+ 
+	</header>
+
+	<main>
+	
+	<!-- Fonction de recherche -->
+		<div id="recherche">
+		<form method="POST" action="articles.html">
+			<input type="text" name="recherche" placeholder="Recherchez une photo">
+			<input type="submit" name="Ok" value="Search">
+		</form>
+		</div>
+	
+		<div id="intro">
+			 <p> Bienvenue dans La chambre noire !<br/>
+
+			
+				Découvrez chaque mois notre nouvelle selection de photos.</p>
+		</div>
+			 <p id="offre">Profitez de l'offre du mois ! <br/>  <!-- Présente les promotions du moment -->
+		 <strong>-50% sur cette sélection d'images</strong></p>
+	
+		<!-- Présentation de certains articles en page d'accueil -->
+		<div id="photos">
+				<a href="tigre.html" class="border"><img src="photo/minitigre.jpg" alt="Photo de tigres" title="Cliquez pour agrandir"/>
+					<p> <strong> Power </strong> <del> 550€</del> 225€ </p> </a>
+				<a href="tigre.html" class="border"><img src="photo/minisinge.jpg" alt="Photo de singe" title="Cliquez pour agrandir" />
+					<p> <strong> Wisdom </strong> <del> 550€</del> 225€ </p></a>
+				<a href="tigre.html" class="border"><img src="photo/minirond.jpg" alt="Photo de rond de lumière colorées" title="Cliquez pour agrandir" />
+					<p> <strong> Lights </strong> <del> 550€</del> 225€ </p></a>
+				<a href="tigre.html" class="border"><img src="photo/minirue.jpg" alt="Photo de rue" title="Cliquez pour agrandir" />
+					<p> <strong> Le londonnien </strong> <del> 550€</del> 225€ </p></a>
+		</div>
+
+		<div id="paysage">
+				<a href="tigre.html" class="border"><img src="photo/miniature/singe.jpg" alt="phare en noir et blanc" title="Cliquez pour acheter"/>
+					<p> <strong> Wisdom </strong> <del> 550€</del> 225€ </p> </a>
+				<a href="tigre.html" class="border"><img src="photo/miniature/portrait.jpg" alt="phare en noir et blanc" title="Cliquez pour acheter"/>
+					<p> <strong> L'inconnue </strong>  110€ </p> </a>
+				<a href="tigre.html" class="border"><img src="photo/miniature/tigre.jpg" alt="Photo de rond de lumière colorées" title="Cliquez pour acheter" />
+					<p> <strong> Power </strong> <del> 550€</del> 225€ </p></a>
+		</div>
+
+	
+		<div id="animaux">
+				<a href="tigre.html" class="border"><img src="photo/miniature/phare.jpg" alt="phare en noir et blanc" title="Cliquez pour acheter"/>
+					<p> <strong> Le phare de Byron Bay.</strong> 225€ </p> </a>
+				<a href="tigre.html" class="border"><img src="photo/miniature/fennec.jpg" alt="Photo de singe" title="Cliquez pour acheter" />
+					<p> <strong> Fennecs </strong> <del>550€</del> 225€ </p></a>
+				<a href="tigre.html" class="border"><img src="photo/miniature/corbeau.jpg" alt="Photo de singe" title="Cliquez pour acheter" />
+					<p> <strong> The Birds </strong> <del> 550€</del> 225€ </p></a>
+		</div>
+
+	</main>
+	
+	<!-- Footer commun à toutes les pages du site -->
+		<footer>
+				<p>Création 2018</p>
+		</footer>
+	
+</body>
+</html>

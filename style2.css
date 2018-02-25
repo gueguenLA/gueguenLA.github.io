@@ -1,0 +1,244 @@
+html {
+  height: 100%;
+  font-family: trajan pro;
+}
+
+body{
+	position: relative;
+	margin-top:0;
+	margin:0;
+	margin-left:0;
+	margin-top: 0;
+	min-height: 100%;
+	background-color: black;
+	display: center;
+}
+
+
+header{
+	margin-top: 0;
+	border-bottom: 1px white solid;
+}
+
+p,h1, h2, h3, h4{
+	color: white;
+	font-family: trajan pro;
+}
+
+/* Tableau utilisé pour simuler le panier */
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table, td, th {
+	border: 2px solid white;
+	width: 50%;
+	color: #F0F8FF;
+}
+
+/* Style "écriture" */
+del{
+	color: red;
+}
+
+/* Texte */
+p, h2, #recherche, #texte1{
+	color: white;
+	text-align: center;
+}
+
+/* Panier (icône qui apparaît en haut à droite) */
+#panier{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+	margin-top: -140px;
+	float: right;
+}
+
+#panier a{
+	text-decoration: none;
+	color: white;
+}
+
+#panier p{
+	font-size: 12px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+/* Fonction de recherche */
+#recherche{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+/* Mise en page du menu */
+#menu{
+	background-image: url(photo/couleur.jpg);
+	background-image: no-repeat;
+	background-size: contain;
+	height: 150px;
+	width: 100%;
+	border-top: 1px solid;
+	margin-top: 0px;
+}
+
+#menu h1{
+	text-align: center;
+	color: white;
+	font-family: trajan pro;
+}
+
+#menu ul{
+	float: left;
+	left: 50%;
+	padding-top: 5px;
+	margin-left: -60px; 
+	position: relative;
+	color: white;
+}
+
+#menu ul li{
+	float: left; 
+	list-style-type: none;
+	margin-left: 30px;
+	position: relative;
+	left: -50%;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#menu ul li a{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	height: 15px;
+	width: 140px;
+	background-color: white;
+	border-radius: 5px 5px;*/
+}
+
+
+section{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: -30px;	
+}
+
+#intro{
+	display: inline-block;
+}
+
+#intro p{
+	text-align: center;
+}
+
+#offre strong{
+	color: red;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+.border{
+	margin-bottom: 2px;
+	margin-left: 10px;
+	display: inline-block;
+	border: solid 1.2px;
+	border-color: grey;
+	background-color: white;
+}
+
+.border p{
+	color: black;
+}
+
+#photos {
+	display: inline-block;
+	padding-top: 15px;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+	background-color: grey;
+	height: 330px;
+	background-image: url(photo/section.jpg);
+	background-size: contain;
+}
+
+#exercice{
+	margin-top: 100px;
+}
+
+
+/* Style de la page produit*/
+
+.left {
+	width: 100%;
+	display: inline-block;
+	margin:0 10px 0 20px;
+}
+
+.left p{
+	margin-left: 10px ;
+	float: center;
+	display: left;
+}
+	
+.tigre{
+	float:left;
+	margin-left: 0px;
+	display: left;
+	border: 1px white solid;
+}
+
+#paysage, #animaux, #noir, #presentation, #photos{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	background-image: url(photo/section.jpg);
+	background-image: no-repeat;
+	background-size: contain;
+	text-align: center;
+}
+
+/* Footer */
+footer{
+    bottom: 0% ;
+	background-image: url(photo/couleur.jpg);
+	background-image: no-repeat;
+	background-size: contain;
+	height: 150px;
+	width: 100%;
+	border-top: 1px white solid;   
+	height: 100px; 
+
+}
+
+footer p{
+	text-align: center;
+
+}
+
+footer ul li{
+	display:none;
+}
+
+
+#commande{
+	margin-top: 50px;
+}
+
+#commande a {
+	color: white;
+}
